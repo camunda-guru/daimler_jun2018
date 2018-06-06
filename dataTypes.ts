@@ -42,4 +42,41 @@ misc.forEach(obj=>{
     console.log(obj.name);
 })
 
+//functions
+
+function checkInventory(products):void
+{
+
+    console.log( products.length);
+}
+var products:String[]=["BMW","ESTILO","HONDA","CLASS E"];
+checkInventory(products);
+
+//optional parameters
+
+function employeeInfo(empName:String, ...skills:String[] ):void
+{
+    console.log("Employee Name",empName)
+
+    skills.forEach(obj=>{
+        console.log(obj);
+    })
+}
+
+employeeInfo("Anoop");
+employeeInfo("Anju","c++");
+employeeInfo("Anju","c++","Java");
+employeeInfo("Anju","c++","Java","Angularjs");
+
+//default parameters
+
+function addressInfo(city:String="Chennai",country:string="India")
+{
+    console.log(city,"--->",country);
+
+}
+addressInfo();
+addressInfo("Bangalore");
+addressInfo(undefined,"USA");
+
 
