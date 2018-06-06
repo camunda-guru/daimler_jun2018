@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript"
+            src="../node_modules/angular/angular.js">
+    </script>
+    <script type="text/javascript"
+            src="../modules/homemodule.js">
+
+    </script>
+    <script type="text/javascript"
+            src="../controllers/homeController.js">
+    </script>
+    <link type="text/css" rel="stylesheet" href="home.css">
+</head>
+<body ng-app="HomeApp">
+
+<section class="login" ng-controller="HomeController">
+    <form ng-submit="save()">
+      <fieldset>
+          <legend>Login</legend>
+      <input type="text"  placeholder="User Name" ng-model="userObj.userName">
+      <input type="password" placeholder="****" ng-model="userObj.password">
+      <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+</section>
+
+
+</body>
+</html>
