@@ -1,0 +1,27 @@
+.heading
+{
+    width:80%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border:2px solid red;
+
+}
+
+.logo
+{
+    width:25%;
+    margin-right: 2%;
+    float:left;
+}
+
+.banner
+{
+    width:60%;
+
+}
+
+img
+{
+    width:100px;
+    height:100px;
+}
