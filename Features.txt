@@ -1,0 +1,24 @@
+Angular 2 is loaded with Power packed Features.
+
+Some of the features are listed below
+
+
+Two-Way Data Binding
+
+This is the coolest feature of the Angular. The Data binding is automatic and fast. changes made in the View is automatically updated in the component class and vice versa
+
+Powerful Routing Support
+
+The Angular Powerful routing engine loads the page asynchronously on the same page enabling us to Create a Single Page Applications.
+
+Expressive HTML
+
+Angular enables us to use programming constructs like if conditions, for loops etc to render and control how the HTML pages.
+
+Modular by Design
+Angular follows the modular design. You can create Angular modules to better organize and manage our code base
+Built in Back End Support
+Angular has built in support to communicate with the back-end servers and execute any business logic or retrieve data
+
+Active Community
+Angular is Supported by google and has a very good active community of supporters. This makes a lot of difference as your queries are quickly resolved.

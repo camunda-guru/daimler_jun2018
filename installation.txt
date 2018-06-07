@@ -1,0 +1,106 @@
+npm install webpack -g
+
+npm install css-loader style-loader
+
+webpack app.js bundle.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+npm install
+
+npm install -g angular-cli
+
+
+
+
+
+
+
+
+npm install --save-dev angular-cli@1.0.0-beta.21
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+npm uninstall -g angular-cli
+npm cache clean
+npm install -g angular-cli@latest
+
+Create Angularjs project
+ 
+ng new “GettingStarted”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+change directory
+ng init
+
+ng serve
+
+
+npm start
+
+
+
+
+
+
+npm start
+
+npm install @ngtools\webpack
+npm install postcss-loader
+npm install html-webpack-plugin
+npm install raw-loader
+web pack commands
+webpack test.js bundle.js
+npm install css-loader style-loader
+
+webpack.config.js
+webpack
+webpack --progress --colors
+webpack --progress --colors --watch
+npm install webpack-dev-server -g
+webpack-dev-server --progress --colors
